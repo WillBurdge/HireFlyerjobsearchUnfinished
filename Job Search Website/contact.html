@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/viber-64.png">
+    <style>
+        /* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and font */
+body {
+  background-color: #eee;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Set header styles */
+header {
+  background-color: #8a2be2;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+/* Set navigation styles */
+nav {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #8a2be2;
+  font-size: 18px;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #6600ff;
+}
+
+/* Set main content styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  padding: 40px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #8a2be2;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #8a2be2;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 2%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+form input[type="submit"] {
+  background-color: #8a2be2;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+  background-color: #6600ff;
+}
+
+/* Set footer styles */
+footer {
+  background-color: #8a2be2;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Set list styles */
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Set paragraph styles */
+p {
+  margin-bottom: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Contact Us</h1>
+            <p>Please use the form below to get in touch with us.</p>
+        </section>
+    
+        <section>
+            <h2>Send Us a Message</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+    
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 HierFlyer</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>

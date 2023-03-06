@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HireFlyer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/viber-64.png">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Search Jobs</a></li>
+				<li><a href="job.html">Post a Job</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section>
+			<h1>Welcome to our Job Search Website!</h1>
+			<p>Find your dream job today!</p>
+		</section>
+
+		<section>
+			<h2>Search for Jobs</h2>
+			<form>
+				<label for="job-category">Job Category:</label>
+				<select id="job-category">
+					<option value="">Select a Category</option>
+					<option value="it">IT</option>
+					<option value="marketing">Marketing</option>
+					<option value="finance">Finance</option>
+					<option value="sales">Sales</option>
+					<option value="agriculture">Agriculture</option>
+					<option value="education">Education</option>
+					<option value=""></option>
+
+				</select>
+				<label for="location">Location:</label>
+				<input type="text" id="location" placeholder="Enter a city or state">
+				<input type="submit" value="Search">
+			</form>
+		</section>
+
+		<section>
+			<h2>Featured Jobs</h2>
+			<ul>
+				<li>
+					<h3>Web Developer</h3>
+					<p>ABC Company - New York, NY</p>
+				</li>
+				<li>
+					<h3>Marketing Manager</h3>
+					<p>XYZ Inc. - San Francisco, CA</p>
+				</li>
+				<li>
+					<h3>Financial Analyst</h3>
+					<p>123 Corporation - Chicago, IL</p>
+				</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<p>Copyright &copy; 2023 HierFlyer</p>
+	</footer>
+    <script src="script.js"></script>
+</body>
+</html>
